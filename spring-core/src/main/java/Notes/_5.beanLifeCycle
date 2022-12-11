@@ -1,0 +1,10 @@
+*Bean baþlatýldýðýnda kullanýlabilir durum için bazý baþlatma iþlemleri yapýlýr, uzun süre kullanýlmadýðýnda da containerdan silinebilir.
+Burada önemli nokta init ve destroy method kullanýmý.
+
+bean içerisinde aþaðýda verilen isimlendirmeye uygun init, destroy methodlarý olmalý.
+<bean id = "helloWorld" class = "com.tutorialspoint.HelloWorld" init-method = "init" 
+      destroy-method = "destroy">
+      <property name = "message" value = "Hello World!"/>
+ </bean>
+ 
+ Ýnit öncesi sonrasý için --> BeanPostProcessor 

@@ -1,0 +1,6 @@
+singleton--> default scope. Single instance per Spring IoC container .
+prototype --> her request için yeniden oluþturur.
+request --> her http request için bir bean 
+session --> http session için bir bean
+global-session --> global http session 
+

@@ -1,0 +1,11 @@
+*project create : new --> maven project
+*Açýk kaynak java platform
+	POJO Based -- Plain Old Java Object --> Java Nesnelerine verilen isim. Customer Class, Product Class vs. Modelleme.
+	Modular --> Spring is organized in a modular fashion.
+	Integration with existing frameworks
+	Testablity 
+	Web Mvc
+	Central Exception Handling 
+	Lightweight 
+	Transaction management
+	

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="message1" class="com.spring.springcore._01.helloworld.Message">
+		<property name="messageText" value="message1: Hello Spring Core World" />
+	</bean>
+	
+	<bean id="message2" class="com.spring.springcore._01.helloworld.Message">
+		<property name="messageText" value="message2: Hello Spring Core World" />
+	</bean>
+</beans>

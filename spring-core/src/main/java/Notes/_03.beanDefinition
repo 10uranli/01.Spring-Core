@@ -1,0 +1,20 @@
+The objects that form the backbone of your application and that are managed by the Spring IoC container are called beans. 
+*Objeler uygulamanýn omurgasýdýr, spring  ioc tarafýndan yönetilir ve bean olarak tanýmlanýr.
+
+Bean definition contains the information called configuration metadata
+*Beanler config metedatalarý içerir.
+
+How to create a bean
+Bean's lifecycle details
+Bean's dependencies
+
+class: create edileceði class.
+name: Uniq bean kimliði
+Scope: bean yaþama alaný.
+constructor-arg: inject için bir yöntem.
+lazy-initialization mode : A lazy-initialized bean tells the IoC container to create a bean instance when it is first requested, rather than at the startup.
+Baþlangýç yerine ilk istenilen baðlamda beaný oluþtur.
+destruction method
+
+
+

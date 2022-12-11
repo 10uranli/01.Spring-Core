@@ -1,0 +1,6 @@
+*The container will create the objects
+*Configure, manage vs.
+
+BeanFactory Container
+	 XmlBeanFactory factory = new XmlBeanFactory (new ClassPathResource("Beans.xml")); 
+Application Context Container --> Bean factory containeri tüm fonksiyonlarýný içerir.

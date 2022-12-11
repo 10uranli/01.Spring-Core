@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!--singleton  -->
+	<bean id="message" class="com.spring.springcore._04.scopes.Message">
+	</bean>
+
+	<!-- prototype -->
+	<bean id="product"  class="com.spring.springcore._04.scopes.Product" scope="prototype"></bean>
+</beans>
