@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<!-- burada product bean ile customerdaki product'a göre autowire yapıyor. Ref ile inject etmeye gerek kalmadı. Kendi buldu -->
+<!-- 	<bean id="customer" class="com.spring.springcore._09.autowiring.Customer" autowire="byName"> -->
+<!-- 		<property name="customerName" value="Onur Anli" /> -->
+<!-- 	</bean> -->
+
+
+<!-- 	<bean id="product" class="com.spring.springcore._09.autowiring.Product"> -->
+<!-- 			<property name="productName" value="Bilgisayar" /> -->
+<!-- 	</bean> -->
+	
+	
+<!-- Product tipinde yukarıdaki de açık kalırsa 2 product olur. Inject edemez. Tipine göre inject eder. -->	
+	<bean id="customerByType" class="com.spring.springcore._09.autowiring.Customer" autowire="byType">
+		<property name="customerName" value="Onur Anli by Type" />
+	</bean>
+
+
+	<bean id="productByType" class="com.spring.springcore._09.autowiring.Product">
+			<property name="productName" value="Bilgisayar by Type" />
+	</bean>
+	
+	<bean id="Page" class="com.spring.springcore._09.autowiring.Page" autowire="constructor">
+		<constructor-arg value="Page 1"></constructor-arg>
+	</bean>
+
+
+	<bean id="SubPage" class="com.spring.springcore._09.autowiring.SubPage">
+			<property  name="subPageName" value="SubPage 1" />
+	</bean>
+	
+</beans>

@@ -1,0 +1,7 @@
+*The Spring container can autowire relationships between collaborating beans without using <constructor-arg> and <property> elements
+	xml yapýlandýrmasýný azaltýr, cons-args ve property kullanmadan beanler arasý iliþki saðlanabilir
+no:autowire yoktur.
+byname: property name ile yapýlýr. byName göre. Ýsme göre bulursa inject eder.
+byType: tipe göre bakar ve olaný bind eder.
+constructor:byType benzer.
+autodetect
