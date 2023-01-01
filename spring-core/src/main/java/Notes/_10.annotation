@@ -1,0 +1,15 @@
+*@Required 
+@Required annotation applies to bean property setter methods and 
+it indicates that the affected bean property must be populated in XML configuration file at configuration time. 
+Otherwise, the container throws a BeanInitializationException exception
+--> setter'a uygulanýr.Config. esnasýnda zorunluluk kontrolünü yapar , 
+	aksi durum Otherwise, the container throws a BeanInitializationException exception.
+	Örnegýn model olmadan Car sýnýfý olusmasýn vs.
+
+@Autowired --> byType ile auto bind saðlar.
+@Qualifer --> birden fazla olan objelerde hangi objeyi bind edeceðini söyleyebilirsin.
+
+ @PostConstruct -- init ,@PreDestroy --destroy
+ 
+ @Resource --> byName inject
+
