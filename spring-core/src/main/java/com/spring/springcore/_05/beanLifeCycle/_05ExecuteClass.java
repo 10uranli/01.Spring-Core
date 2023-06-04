@@ -14,11 +14,11 @@ public class _05ExecuteClass {
 		bean.setUserName("bank");
 
 		System.out.println(bean.toString());
-
-
+		xml.registerShutdownHook();//konmalı destroy icin
 		//builder
-		ConnectionDB aa = ConnectionDB.builder().URL("").userName("aa").build();
-		System.out.println(aa);
+		//ConnectionDB aa = ConnectionDB.builder().URL("").userName("aa").build();
+		//System.out.println(aa);
+
 
 
 	}

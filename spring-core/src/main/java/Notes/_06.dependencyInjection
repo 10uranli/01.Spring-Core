@@ -1,0 +1,6 @@
+*Objeler birden fazla obje olarak birlikte çalýþýr fakat tek bir uygulama olarak end-user görür.
+*Kompleks uygulamalar yazdýðýnda objeler olabildiðince baðýmsýz olmalý.(reuse,test )
+*DI sayesinde bu  sýnýflarýn objeleri olusturulur ve baðýmsýz olmalarý saðlanýr.
+
+Constructor-based dependency injection
+Setter-based dependency injection
