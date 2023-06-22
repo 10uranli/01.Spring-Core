@@ -6,7 +6,7 @@ Otherwise, the container throws a BeanInitializationException exception
 	aksi durum Otherwise, the container throws a BeanInitializationException exception.
 	Örnegýn model olmadan Car sýnýfý olusmasýn vs.
 
-@Autowired --> byType ile auto bind saðlar.
+@Autowired --> byType ile auto bind saðlar. Confdaki yerine class'a koyabilirsin.
 @Qualifer --> birden fazla olan objelerde hangi objeyi bind edeceðini söyleyebilirsin.
 
  @PostConstruct -- init ,@PreDestroy --destroy

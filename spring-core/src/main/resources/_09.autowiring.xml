@@ -6,15 +6,15 @@
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
 <!-- burada product bean ile customerdaki product'a göre autowire yapıyor. Ref ile inject etmeye gerek kalmadı. Kendi buldu -->
-<!-- 	<bean id="customer" class="com.spring.springcore._09.autowiring.Customer" autowire="byName"> -->
-<!-- 		<property name="customerName" value="Onur Anli" /> -->
-<!-- 	</bean> -->
+<!-- 	<bean id="customer" class="com.spring.springcore._09.autowiring.Customer" autowire="byName">-->
+<!-- 		<property name="customerName" value="Onur Anli" />-->
+<!-- 	</bean>-->
 
 
-<!-- 	<bean id="product" class="com.spring.springcore._09.autowiring.Product"> -->
-<!-- 			<property name="productName" value="Bilgisayar" /> -->
-<!-- 	</bean> -->
-	
+<!-- 	<bean id="product" class="com.spring.springcore._09.autowiring.Product">-->
+<!-- 			<property name="productName" value="Bilgisayar" />-->
+<!-- 	</bean>-->
+
 	
 <!-- Product tipinde yukarıdaki de açık kalırsa 2 product olur. Inject edemez. Tipine göre inject eder. -->	
 	<bean id="customerByType" class="com.spring.springcore._09.autowiring.Customer" autowire="byType">
@@ -25,7 +25,7 @@
 	<bean id="productByType" class="com.spring.springcore._09.autowiring.Product">
 			<property name="productName" value="Bilgisayar by Type" />
 	</bean>
-	
+<!--	-->
 	<bean id="Page" class="com.spring.springcore._09.autowiring.Page" autowire="constructor">
 		<constructor-arg value="Page 1"></constructor-arg>
 	</bean>

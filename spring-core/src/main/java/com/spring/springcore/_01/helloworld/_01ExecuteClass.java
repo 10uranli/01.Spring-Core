@@ -10,6 +10,8 @@ public class _01ExecuteClass {
 		ClassPathXmlApplicationContext xml = new ClassPathXmlApplicationContext("_01.helloworld.xml");
 		Message bean1 = (Message) xml.getBean("message1");
 		System.out.println(bean1.getMessageText());
+
+
 		
 		Message bean2 = (Message) xml.getBean("message2");
 		System.out.println(bean2.getMessageText());

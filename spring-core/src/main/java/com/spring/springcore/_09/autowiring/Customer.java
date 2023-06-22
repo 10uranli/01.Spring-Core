@@ -3,6 +3,7 @@ package com.spring.springcore._09.autowiring;
 public class Customer {
 	
 	private String customerName;
+
 	private Product product;
 	
 	public String getCustomerName() {

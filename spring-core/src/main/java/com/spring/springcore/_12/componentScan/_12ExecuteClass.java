@@ -21,6 +21,8 @@ public class _12ExecuteClass {
 		insurance.setType("Dask");
 
 		System.out.println(insurance);
+
+		//autowired : otomatik inject icin.
 	}
 
 }

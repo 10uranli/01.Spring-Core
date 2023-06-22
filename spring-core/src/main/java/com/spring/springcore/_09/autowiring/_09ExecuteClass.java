@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class _09ExecuteClass {
 	
 	public static void main(String[] args) {
-		//byName
+		//byName ctrl /
 //		ClassPathXmlApplicationContext xml = new ClassPathXmlApplicationContext("_09.autowiring.xml");
 //		Customer customer = (Customer) xml.getBean("customer");
 //		String customerProductName = customer.getCustomerProductName();

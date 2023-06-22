@@ -10,7 +10,7 @@ public class Page {
 		this.pageName = pageName;
 		this.subPage = subPage;
 	}
-	
+
 	public String getPageName() {
 		return pageName;
 	}
@@ -21,4 +21,5 @@ public class Page {
 	}
 
 
+	//buradaki const. ile xmldeki uyusmalý, parametre sayýsý
 }
